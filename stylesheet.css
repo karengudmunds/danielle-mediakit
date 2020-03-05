@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'sydneyregular';
+    src: url('sydney-regular-webfont.woff2') format('woff2'),
+         url('sydney-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* big elements */
+section, footer {
+  padding: 1% 5%;
+}
+
+/* Typography */
+h1, h2, h3, hr, p {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-family: "sydneyregular";
+  font-size: 36px;
+  margin-top: 2rem;
+  padding-top:1rem;
+  position: fixed;
+  top: 2px;
+  left: 80px;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(33,33,33,0.88);
+  letter-spacing: .2rem;
+  /* margin:  */
+}
+
+h3 {
+  font-family: 'Sarabun', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Sarabun', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #404040;
+  line-height: 1.5;
+  font-weight: 13px;
+}
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+span {
+  font-family: 'Sarabun', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+}
+/* This is a line element */
+hr {
+  border: none;
+  border-bottom: 1.5px solid;
+  width: 6rem;
+  margin: auto;
+  margin-bottom: 2rem;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #F8A39B;
+  letter-spacing:0.1rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 1rem;
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: #fae4ce
+}
+
+footer p {
+  font-size: 13px;
+}
+
+footer h3 {
+  /* color: #404040; */
+  font-weight: 100;
+  padding:0  1rem;
+  margin-bottom: 0;
+}
+
+h4 {
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
+
+/* Utility classes */
+[class*=bg]{
+  background-position: center;
+  background-size: cover;
+}
+
+/* background colors */
+.light-bg{ background-color: #fae4ce;}
+.featured-bg {background-color: }
+.hr-light {background-color: #fae4ce;}
+
+/* text-alignment classes */
+
+.centered { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+
+/* Padding */
+
+.padded {padding: 5%}
+.padded-5px { padding: 5px}
+.padded-1 { padding: 1rem; }
+.padded-2 { padding: 2rem;}
+.padded-3 { padding: 3rem;}
+.padded-bottom {padding-bottom: 10rem;}
+.padded-top {padding-top: 2rem;}
+.padded-left {padding-left: 2rem;}
+
+
+/* Margin */
+
+.margin-1 { margin:1rem;}
+.margin-2 { margin:2rem;}
+.margin-5 { margin:5rem;}
+.margin-3 { margin:3rem;}
+.margin-botton-1 { margin: 1rem;}
+.margin-bottom-2 {margin-bottom: 2rem;}
+.margin-bottom-5 {margin-bottom: 5%;}
+.margin {margin: 2rem 15rem;}
+.margin-auto { margin: auto; }
+.no-margin-left {margin-left: 0;}
+.margin-5 {margin: 5rem;}
+.margin-left {margin-left: 2rem;}
+
+.max-width-700 { max-width: 700px;}
+/* .verticle-line {
+  margin: 0 1rem;
+  border-left: 2px solid black;
+} */
+
+/* Header section */
+
+.logo {
+  font-family: "sydneyregular";
+  font-size: 36px;
+  margin-top: 2rem;
+  padding-top:1rem;
+  position: fixed;
+  top: 2px;
+  left: 80px;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 5px #000;
+}
+
+.mediakit h2 {
+  text-transform: lowercase;
+  font-size: 12px;
+  color: rgb(120, 120, 125);
+}
+
+.mediakit a {
+  color: #F8A39B;
+}
+
+.stats-section h3 {
+  margin-top: .3rem;
+}
+
+.products h4 {
+  padding-bottom: 2rem;
+}
+
+.banner {
+  background-image: url(Images/MEIOCPHOTOS-3945.jpg);
+  background-size: cover;
+  background-position: 50% 65%;
+  min-height: 80vh;
+}
+
+.instagram-handle {
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-size: 32px;
+}
+
+.background-image {
+  background-image: url(/images/Aqua-Dome-1-1-4.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  margin-bottom: 3rem;
+}
+
+.fix-banner {
+  background-image: url(Images/IMG_5267.JPG);
+  background-size: cover;
+  background-position: 50% 65%;
+  min-height: 80vh;
+}
+
+.fixed {
+    background-attachment: fixed;
+  }
+
+.justity  {
+  text-align: justify;
+}
+
+.inline {
+  display: inline-block;
+}
+
+@media(max-width:767px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media(max-width:567px) {
+  .masonry {
+    column-count: 1;
+  }
+}
