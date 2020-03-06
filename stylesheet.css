@@ -198,6 +198,7 @@ h4 {
 
 .products h4 {
   padding-bottom: 2rem;
+  min-height: 4.3rem;
 }
 
 .banner {
