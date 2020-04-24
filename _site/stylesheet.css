@@ -118,7 +118,7 @@ h4 {
 }
 
 /* background colors */
-.light-bg{ background-color: #ecd5cd;}
+.light-bg{ background-color: ##ecd5cd;}
 .featured-bg {background-color: }
 .hr-light {background-color: #fae4ce;}
 
@@ -242,7 +242,7 @@ h4 {
     background-attachment: fixed;
   }
 
-.justity  {
+.justify  {
   text-align: justify;
 }
 
